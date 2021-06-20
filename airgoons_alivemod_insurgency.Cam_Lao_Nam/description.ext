@@ -5,6 +5,13 @@ class Header
 	maxPlayers = 64;
 };
 
+respawn = 3;
+respawnDelay = 20;
+respawnDialog = 0;
+respawnButton = 1;
+respawnOnStart = -1;
+respawnTemplates[] = { "MenuPosition" };
+
 disabledAI = 1;
 scriptedPlayer = 0;
 
