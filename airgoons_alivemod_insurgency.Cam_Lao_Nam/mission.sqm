@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=624;
+		nextID=625;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,13 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=433;
+		nextID=468;
 	};
 	class Camera
 	{
-		pos[]={6175.3174,2127.3438,12819.669};
-		dir[]={-0.077248089,-0.91478425,0.39648798};
-		up[]={-0.17493889,0.4039425,0.89790142};
-		aside[]={0.98154444,0,0.19123513};
+		pos[]={13904,169.85674,6604.0391};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710671,0.70710683};
 	};
 };
 binarizationWanted=0;
@@ -56,13 +55,14 @@ addons[]=
 	"air_f_vietnam_c",
 	"weapons_f_vietnam_c",
 	"alive_amb_civ_population",
-	"alive_amb_civ_placement"
+	"alive_amb_civ_placement",
+	"A3_Modules_F_Multiplayer"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=28;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -234,6 +234,13 @@ class AddonsMetaData
 			name="alive_amb_civ_placement";
 			author="ALiVE Mod Team";
 		};
+		class Item27
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=5333107;
@@ -243,6 +250,7 @@ class ScenarioData
 	saving=0;
 	disabledAI=1;
 	respawn=3;
+	respawnDelay=30.000002;
 	class Header
 	{
 		gameType="alive";
@@ -430,7 +438,7 @@ class Mission
 									type="mil_dot";
 									colorName="ColorRed";
 									id=14;
-									atlOffset=3.2549095;
+									atlOffset=2.8654556;
 								};
 								class Item3
 								{
@@ -1019,7 +1027,7 @@ class Mission
 									name="SV_Border_47";
 									type="hd_dot";
 									id=158;
-									atlOffset=7.0669861;
+									atlOffset=6.5568848;
 								};
 								class Item43
 								{
@@ -1374,7 +1382,7 @@ class Mission
 					name="MACV";
 					class Entities
 					{
-						items=4;
+						items=3;
 						class Item0
 						{
 							dataType="Layer";
@@ -2381,7 +2389,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="player_blacklist_01,macv_blacklist_01,macv_blacklist_02,macv_blacklist_03";
+													value="player_blacklist_01,arvn_taor_base_fob4,arvn_taor_base_fob6,arvn_taor_base_hue";
 												};
 											};
 										};
@@ -2814,7 +2822,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="player_blacklist_01,macv_blacklist_01,macv_blacklist_02,macv_blacklist_03";
+													value="player_blacklist_01,arvn_taor_base_fob4,arvn_taor_base_fob6,arvn_taor_base_hue";
 												};
 											};
 										};
@@ -3247,7 +3255,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="player_blacklist_01,macv_blacklist_01,macv_blacklist_02,macv_blacklist_03";
+													value="player_blacklist_01,arvn_taor_base_fob4,arvn_taor_base_fob6,arvn_taor_base_hue";
 												};
 											};
 										};
@@ -3680,7 +3688,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="player_blacklist_01,macv_blacklist_01,macv_blacklist_02,macv_blacklist_03";
+													value="player_blacklist_01,arvn_taor_base_fob4,arvn_taor_base_fob6,arvn_taor_base_hue";
 												};
 											};
 										};
@@ -4115,7 +4123,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="player_blacklist_01,macv_blacklist_01,macv_blacklist_02,macv_blacklist_03";
+													value="player_blacklist_01,arvn_taor_base_fob4,arvn_taor_base_fob6,arvn_taor_base_hue";
 												};
 											};
 										};
@@ -4549,7 +4557,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="player_blacklist_01,macv_blacklist_01,macv_blacklist_02,macv_blacklist_03";
+													value="player_blacklist_01,arvn_taor_base_fob4,arvn_taor_base_fob6,arvn_taor_base_hue";
 												};
 											};
 										};
@@ -4982,7 +4990,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="player_blacklist_01,macv_blacklist_01,macv_blacklist_02,macv_blacklist_03";
+													value="player_blacklist_01,arvn_taor_base_fob4,arvn_taor_base_fob6,arvn_taor_base_hue";
 												};
 											};
 										};
@@ -5278,56 +5286,9 @@ class Mission
 							id=208;
 							atlOffset=29.744131;
 						};
-						class Item3
-						{
-							dataType="Layer";
-							name="Blacklist";
-							class Entities
-							{
-								items=3;
-								class Item0
-								{
-									dataType="Marker";
-									position[]={15319.991,-2.665,2285.3821};
-									name="macv_blacklist_01";
-									markerType="RECTANGLE";
-									type="rectangle";
-									a=5711.0737;
-									b=2715.7949;
-									id=602;
-									atlOffset=-5.0339012;
-								};
-								class Item1
-								{
-									dataType="Marker";
-									position[]={16515.371,-15.518555,5404.0225};
-									name="macv_blacklist_02";
-									markerType="RECTANGLE";
-									type="rectangle";
-									a=4516.0127;
-									b=403.76135;
-									id=603;
-									atlOffset=-48.822617;
-								};
-								class Item2
-								{
-									dataType="Marker";
-									position[]={19701.926,-84.959442,6434.3926};
-									name="macv_blacklist_03";
-									markerType="RECTANGLE";
-									type="rectangle";
-									a=1340.0781;
-									b=1276.9662;
-									id=606;
-									atlOffset=-85.813736;
-								};
-							};
-							id=601;
-							atlOffset=-61.12561;
-						};
 					};
 					id=201;
-					atlOffset=-34.034241;
+					atlOffset=30.794588;
 				};
 				class Item1
 				{
@@ -5632,7 +5593,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="occupation";
+													value="invasion";
 												};
 											};
 										};
@@ -7266,22 +7227,22 @@ class Mission
 								class Item2
 								{
 									dataType="Marker";
-									position[]={3519.7839,-23.138428,8067.9541};
+									position[]={3519.7839,-23.138,8067.9541};
 									name="arvn_blacklist_03";
 									markerType="RECTANGLE";
 									type="rectangle";
 									a=3846.1709;
 									b=7234.582;
 									id=562;
-									atlOffset=-39.737034;
+									atlOffset=-39.736607;
 								};
 							};
 							id=560;
-							atlOffset=-23.524305;
+							atlOffset=-23.524092;
 						};
 					};
 					id=202;
-					atlOffset=-260.64981;
+					atlOffset=-260.64972;
 				};
 				class Item2
 				{
@@ -7880,7 +7841,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="0";
+													value="100";
 												};
 											};
 										};
@@ -8313,7 +8274,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="0";
+													value="100";
 												};
 											};
 										};
@@ -8560,7 +8521,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="0";
+													value="10";
 												};
 											};
 										};
@@ -8746,7 +8707,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="0";
+													value="100";
 												};
 											};
 										};
@@ -8993,7 +8954,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="0";
+													value="10";
 												};
 											};
 										};
@@ -9144,7 +9105,6 @@ class Mission
 									name="pavn_force_laos";
 									id=613;
 									type="ALiVE_civ_placement";
-									atlOffset=7.6293945e-006;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -9200,7 +9160,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="0";
+													value="250";
 												};
 											};
 										};
@@ -10478,7 +10438,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="0";
+													value="100";
 												};
 											};
 										};
@@ -10920,7 +10880,7 @@ class Mission
 				};
 			};
 			id=200;
-			atlOffset=49.35014;
+			atlOffset=4.7835083;
 		};
 		class Item2
 		{
@@ -11454,7 +11414,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="100";
+							value="10";
 						};
 					};
 				};
@@ -20729,15 +20689,6 @@ class Mission
 		};
 		class Item94
 		{
-			dataType="Marker";
-			position[]={14829.442,99.638,6827.7559};
-			name="respawn_west";
-			type="Empty";
-			id=541;
-			atlOffset=-0.00018310547;
-		};
-		class Item95
-		{
 			dataType="Layer";
 			name="Objectives";
 			class Entities
@@ -20820,7 +20771,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10399.546,182.93091,20631.703};
-						angles[]={6.2376914,0,5.715457};
+						angles[]={6.2376847,0,5.7154641};
 					};
 					name="obj_mil";
 					id=554;
@@ -20861,7 +20812,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="0";
+									value="100";
 								};
 							};
 						};
@@ -21108,7 +21059,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="0";
+									value="10";
 								};
 							};
 						};
@@ -21254,7 +21205,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9604.3936,252.21362,20651.098};
-						angles[]={6.0061526,0,0.15506248};
+						angles[]={6.0061493,0,0.15505505};
 					};
 					name="obj_civ";
 					id=553;
@@ -21314,7 +21265,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="0";
+									value="250";
 								};
 							};
 						};
@@ -21599,7 +21550,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="0";
+									value="10";
 								};
 							};
 						};
@@ -21629,7 +21580,7 @@ class Mission
 			id=542;
 			atlOffset=35.343002;
 		};
-		class Item96
+		class Item95
 		{
 			dataType="Layer";
 			name="Civilian";
@@ -22096,7 +22047,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="0";
+									value="160";
 								};
 							};
 						};
@@ -22210,7 +22161,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="0";
+									value="0.2";
 								};
 							};
 						};
@@ -22240,16 +22191,126 @@ class Mission
 			id=614;
 			atlOffset=94.300179;
 		};
+		class Item96
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14832.137,99.600235,6827.2222};
+				angles[]={0.016004669,0,6.2671809};
+			};
+			id=624;
+			type="ModuleRespawnPosition_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleRespawnPosition_F_Marker";
+					expression="_this setVariable ['Marker',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="2";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleRespawnPosition_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="FOB 2";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleRespawnPosition_F_Side";
+					expression="_this setVariable ['Side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleRespawnPosition_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleRespawnPosition_F_Type";
+					expression="_this setVariable ['Type',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=46;
+			nextID=45;
 		};
 		class Links
 		{
-			items=46;
+			items=45;
 			class Item0
 			{
 				linkID=0;
@@ -22543,7 +22604,7 @@ class Mission
 			class Item29
 			{
 				linkID=29;
-				item0=610;
+				item0=611;
 				item1=296;
 				class CustomData
 				{
@@ -22553,7 +22614,7 @@ class Mission
 			class Item30
 			{
 				linkID=30;
-				item0=611;
+				item0=608;
 				item1=296;
 				class CustomData
 				{
@@ -22563,7 +22624,7 @@ class Mission
 			class Item31
 			{
 				linkID=31;
-				item0=608;
+				item0=607;
 				item1=296;
 				class CustomData
 				{
@@ -22573,7 +22634,7 @@ class Mission
 			class Item32
 			{
 				linkID=32;
-				item0=607;
+				item0=609;
 				item1=296;
 				class CustomData
 				{
@@ -22583,7 +22644,7 @@ class Mission
 			class Item33
 			{
 				linkID=33;
-				item0=609;
+				item0=570;
 				item1=296;
 				class CustomData
 				{
@@ -22593,7 +22654,7 @@ class Mission
 			class Item34
 			{
 				linkID=34;
-				item0=570;
+				item0=553;
 				item1=296;
 				class CustomData
 				{
@@ -22603,7 +22664,7 @@ class Mission
 			class Item35
 			{
 				linkID=35;
-				item0=553;
+				item0=554;
 				item1=296;
 				class CustomData
 				{
@@ -22613,8 +22674,8 @@ class Mission
 			class Item36
 			{
 				linkID=36;
-				item0=554;
-				item1=296;
+				item0=553;
+				item1=233;
 				class CustomData
 				{
 					type="Sync";
@@ -22623,7 +22684,7 @@ class Mission
 			class Item37
 			{
 				linkID=37;
-				item0=553;
+				item0=554;
 				item1=233;
 				class CustomData
 				{
@@ -22633,8 +22694,8 @@ class Mission
 			class Item38
 			{
 				linkID=38;
-				item0=554;
-				item1=233;
+				item0=553;
+				item1=234;
 				class CustomData
 				{
 					type="Sync";
@@ -22643,7 +22704,7 @@ class Mission
 			class Item39
 			{
 				linkID=39;
-				item0=553;
+				item0=554;
 				item1=234;
 				class CustomData
 				{
@@ -22653,8 +22714,8 @@ class Mission
 			class Item40
 			{
 				linkID=40;
-				item0=554;
-				item1=234;
+				item0=619;
+				item1=618;
 				class CustomData
 				{
 					type="Sync";
@@ -22663,7 +22724,7 @@ class Mission
 			class Item41
 			{
 				linkID=41;
-				item0=619;
+				item0=620;
 				item1=618;
 				class CustomData
 				{
@@ -22673,7 +22734,7 @@ class Mission
 			class Item42
 			{
 				linkID=42;
-				item0=620;
+				item0=554;
 				item1=618;
 				class CustomData
 				{
@@ -22683,7 +22744,7 @@ class Mission
 			class Item43
 			{
 				linkID=43;
-				item0=554;
+				item0=553;
 				item1=618;
 				class CustomData
 				{
@@ -22693,16 +22754,6 @@ class Mission
 			class Item44
 			{
 				linkID=44;
-				item0=553;
-				item1=618;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item45
-			{
-				linkID=45;
 				item0=623;
 				item1=618;
 				class CustomData
