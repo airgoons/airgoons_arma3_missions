@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=570;
+		nextID=604;
 	};
 	class Camera
 	{
-		pos[]={14270.895,2239.5317,6847.9482};
+		pos[]={14081.896,2814.4363,6902.6235};
 		dir[]={-0.0052359938,-0.99981391,0.018587403};
 		up[]={-0.2710931,0.01926047,0.96236056};
 		aside[]={0.9625392,-1.8626451e-009,0.27114365};
@@ -2467,7 +2467,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="200";
 												};
 											};
 										};
@@ -2900,7 +2900,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="200";
 												};
 											};
 										};
@@ -3333,7 +3333,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="200";
 												};
 											};
 										};
@@ -3766,7 +3766,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="200";
 												};
 											};
 										};
@@ -4201,7 +4201,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="200";
 												};
 											};
 										};
@@ -4635,7 +4635,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="200";
 												};
 											};
 										};
@@ -5068,7 +5068,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="800";
+													value="1200";
 												};
 											};
 										};
@@ -6058,7 +6058,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="400";
+													value="800";
 												};
 											};
 										};
@@ -6491,7 +6491,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="400";
+													value="800";
 												};
 											};
 										};
@@ -6925,7 +6925,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="400";
+													value="800";
 												};
 											};
 										};
@@ -8238,7 +8238,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="400";
+													value="1200";
 												};
 											};
 										};
@@ -8671,7 +8671,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="800";
+													value="1200";
 												};
 											};
 										};
@@ -9405,7 +9405,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="400";
+													value="1200";
 												};
 											};
 										};
@@ -10835,7 +10835,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="200";
 												};
 											};
 										};
