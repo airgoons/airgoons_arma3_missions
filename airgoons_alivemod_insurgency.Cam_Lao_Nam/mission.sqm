@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=625;
+		nextID=626;
 	};
 	class MarkerIDProvider
 	{
@@ -1922,6 +1922,7 @@ class Mission
 									{
 										position[]={16401.811,14.98,6521.915};
 									};
+									name="macv_macc";
 									id=335;
 									type="ALiVE_mil_ato";
 									class CustomAttributes
@@ -7258,7 +7259,7 @@ class Mission
 							name="Command";
 							class Entities
 							{
-								items=2;
+								items=3;
 								class Item0
 								{
 									dataType="Logic";
@@ -7784,9 +7785,233 @@ class Mission
 										nAttributes=12;
 									};
 								};
+								class Item2
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={11357.143,70.064751,14325.875};
+									};
+									name="pavn_macc";
+									id=625;
+									type="ALiVE_mil_ato";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ALiVE_mil_ato_debug";
+											expression="_this setVariable ['debug',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="false";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="ALiVE_mil_ato_placeAA";
+											expression="_this setVariable ['placeAA',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="true";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="ALiVE_mil_ato_persistent";
+											expression="_this setVariable ['persistent',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="true";
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="ALiVE_mil_ato_airspace";
+											expression="_this setVariable ['airspace',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="ALiVE_mil_ato_placeAir";
+											expression="_this setVariable ['placeAir',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="true";
+												};
+											};
+										};
+										class Attribute5
+										{
+											property="ALiVE_mil_ato_generateTasks";
+											expression="_this setVariable ['generateTasks',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="false";
+												};
+											};
+										};
+										class Attribute6
+										{
+											property="ALiVE_mil_ato_types";
+											expression="_this setVariable ['types',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="['CAP','DCA','SEAD','CAS','Strike','Recce']";
+												};
+											};
+										};
+										class Attribute7
+										{
+											property="ALiVE_mil_ato_broadcastOnRadio";
+											expression="_this setVariable ['broadcastOnRadio',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="false";
+												};
+											};
+										};
+										class Attribute8
+										{
+											property="ALiVE_mil_ato_faction";
+											expression="_this setVariable ['faction',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="O_PAVN";
+												};
+											};
+										};
+										class Attribute9
+										{
+											property="ALiVE_mil_ato_createHQ";
+											expression="_this setVariable ['createHQ',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="true";
+												};
+											};
+										};
+										class Attribute10
+										{
+											property="ALiVE_mil_ato_Resupply";
+											expression="_this setVariable ['Resupply',_value,true];";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="true";
+												};
+											};
+										};
+										nAttributes=11;
+									};
+								};
 							};
 							id=209;
-							atlOffset=7.7148514;
+							atlOffset=-16.514175;
 						};
 						class Item1
 						{
@@ -8234,8 +8459,7 @@ class Mission
 									dataType="Logic";
 									class PositionInfo
 									{
-										position[]={7339.9619,37.335705,7511.2231};
-										angles[]={6.179565,0,0.29511774};
+										position[]={11234.51,70.209999,14807.129};
 									};
 									name="pavn_force_gialam";
 									id=596;
@@ -9475,7 +9699,7 @@ class Mission
 								};
 							};
 							id=210;
-							atlOffset=28.206497;
+							atlOffset=-43.655785;
 						};
 						class Item2
 						{
@@ -9542,7 +9766,7 @@ class Mission
 						};
 					};
 					id=203;
-					atlOffset=-11.57412;
+					atlOffset=53.856804;
 				};
 				class Item3
 				{
@@ -10882,7 +11106,7 @@ class Mission
 				};
 			};
 			id=200;
-			atlOffset=-3.2022858;
+			atlOffset=19.524254;
 		};
 		class Item2
 		{
@@ -22308,11 +22532,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=45;
+			nextID=46;
 		};
 		class Links
 		{
-			items=45;
+			items=46;
 			class Item0
 			{
 				linkID=0;
@@ -22758,6 +22982,16 @@ class Mission
 				linkID=44;
 				item0=623;
 				item1=618;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item45
+			{
+				linkID=45;
+				item0=625;
+				item1=234;
 				class CustomData
 				{
 					type="Sync";
