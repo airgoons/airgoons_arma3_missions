@@ -1,0 +1,95 @@
+class Header
+{
+	gameType = "AirGoons";
+	minPlayers = 1;
+	maxPlayers = 64;
+};
+
+respawn = 3;
+respawnDelay = 20;
+respawnDialog = 0;
+respawnButton = 1;
+respawnOnStart = -1;
+respawnTemplates[] = { "MenuPosition" };
+
+disabledAI = 1;
+scriptedPlayer = 0;
+
+disableChannels[]=  // allow text only on side chat
+{
+	{0,true,true},
+	{1,false,true},
+	{2,true,true},
+	{6,true,true}
+};
+
+enableItemsDropping = 0;
+briefing = 0;
+debriefing = 0;
+enableDebugConsole[] = {
+	// wonkotron
+	"76561197964217531",
+};
+
+allowFunctionsLog = 1;
+allowFunctionsRecompile = 1;
+joinUnassigned = 0;
+forceRotorLibSimulation = 0;
+saving = 0;
+skipLobby = 0;
+
+corpseManagerMode = 1;
+corpseLimit = 10;
+corpseRemovalMinTime = 1200;
+corpseRemovalMaxTime = 3600;
+
+wreckManagerMode = 0;
+wreckLimit = 2;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 360;
+
+disableRandomization[] = {"All"};
+
+showHUD[] =
+{
+	true,	// Scripted HUD (same as showHUD command)
+	true,	// Vehicle + soldier info
+	true,	// Vehicle radar
+	true,	// Vehicle compass
+	true,	// Tank direction indicator
+	true,	// Commanding menu
+	true,	// Group Bar
+	true,	// HUD Weapon Cursors
+	true	// Vehicle display panels
+};
+
+// Enable CBA settings loading
+cba_settings_hasSettingsFile = 1;
+
+/* class Params
+{
+	#include "config\params.hpp"
+}; */
+
+class CfgDebriefing
+{
+	class TimedOut
+	{
+		title = "ERROR";
+		subtitle = "Server Timeout";
+		description = "If you see this message please reconnect";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+};
+
+//Show melee weapons in the arsenal
+vn_arsenalShowMelee = 1;
+
+//Tell paradigm to handle mission initialisation.
+use_paradigm_init = 1;
+
+
+// Centralized Init
+#include "config\init.hpp"
