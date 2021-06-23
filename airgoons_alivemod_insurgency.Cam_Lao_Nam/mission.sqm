@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=626;
+		nextID=627;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=638;
+		nextID=672;
 	};
 	class Camera
 	{
-		pos[]={13898.878,3228.0837,6962.1602};
-		dir[]={-0.0052359938,-0.99981391,0.018587403};
-		up[]={-0.2710931,0.01926047,0.96236056};
-		aside[]={0.9625392,-1.8626451e-009,0.27114365};
+		pos[]={13899.128,3276.075,6961.2676};
+		dir[]={-8.9777808e-005,-0.99999857,0.001743227};
+		up[]={-0.051432692,0.0016390501,0.99867511};
+		aside[]={0.99867654,-7.2759576e-012,0.051432766};
 	};
 };
 binarizationWanted=0;
@@ -1028,7 +1028,7 @@ class Mission
 									name="SV_Border_47";
 									type="hd_dot";
 									id=158;
-									atlOffset=7.0669861;
+									atlOffset=6.5568848;
 								};
 								class Item43
 								{
@@ -5868,7 +5868,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="arvn_taor_base_fob6";
+													value="arvn_taor_base_fob6,arvn_taor_sv";
 												};
 											};
 										};
@@ -6301,7 +6301,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="arvn_taor_base_fob4";
+													value="arvn_taor_base_fob4,arvn_taor_sv";
 												};
 											};
 										};
@@ -6735,7 +6735,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="arvn_taor_base_hue";
+													value="arvn_taor_base_hue,arvn_taor_sv";
 												};
 											};
 										};
@@ -7151,7 +7151,7 @@ class Mission
 							name="TAOR";
 							class Entities
 							{
-								items=3;
+								items=4;
 								class Item0
 								{
 									dataType="Marker";
@@ -7191,9 +7191,22 @@ class Mission
 									id=600;
 									atlOffset=0.00041007996;
 								};
+								class Item3
+								{
+									dataType="Marker";
+									position[]={15548.68,6.6799998,5963.1089};
+									name="arvn_taor_sv";
+									markerType="ELLIPSE";
+									type="ellipse";
+									colorName="ColorGUER";
+									alpha=0.50000018;
+									a=5431.5151;
+									b=5557.5762;
+									id=626;
+								};
 							};
 							id=220;
-							atlOffset=0.49747086;
+							atlOffset=-1.6372576;
 						};
 						class Item3
 						{
@@ -7244,7 +7257,7 @@ class Mission
 						};
 					};
 					id=202;
-					atlOffset=-260.64972;
+					atlOffset=-211.65559;
 				};
 				class Item2
 				{
@@ -9331,7 +9344,6 @@ class Mission
 									name="pavn_force_laos";
 									id=613;
 									type="ALiVE_civ_placement";
-									atlOffset=7.6293945e-006;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -9387,7 +9399,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="250";
+													value="0";
 												};
 											};
 										};
@@ -9700,7 +9712,7 @@ class Mission
 								};
 							};
 							id=210;
-							atlOffset=-43.655777;
+							atlOffset=-43.655785;
 						};
 						class Item2
 						{
@@ -11107,7 +11119,7 @@ class Mission
 				};
 			};
 			id=200;
-			atlOffset=19.524254;
+			atlOffset=25.480419;
 		};
 		class Item2
 		{
