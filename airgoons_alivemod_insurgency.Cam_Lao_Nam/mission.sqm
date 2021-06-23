@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=627;
+		nextID=628;
 	};
 	class MarkerIDProvider
 	{
@@ -8080,7 +8080,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="0";
 												};
 											};
 										};
@@ -8494,7 +8494,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="pavn_taor_base_gialam";
+													value="pavn_taor_base_gialam,pavn_taor_nv";
 												};
 											};
 										};
@@ -8513,7 +8513,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="0";
 												};
 											};
 										};
@@ -8760,7 +8760,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="10";
+													value="0";
 												};
 											};
 										};
@@ -8927,7 +8927,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="pavn_taor_base_sontay";
+													value="pavn_taor_base_sontay,pavn_taor_nv";
 												};
 											};
 										};
@@ -8946,7 +8946,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="100";
+													value="0";
 												};
 											};
 										};
@@ -9193,7 +9193,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="10";
+													value="0";
 												};
 											};
 										};
@@ -9720,7 +9720,7 @@ class Mission
 							name="TAOR";
 							class Entities
 							{
-								items=4;
+								items=5;
 								class Item0
 								{
 									dataType="Marker";
@@ -9773,13 +9773,27 @@ class Mission
 									id=566;
 									atlOffset=-10.122982;
 								};
+								class Item4
+								{
+									dataType="Marker";
+									position[]={13298.581,-33.813,15549.088};
+									name="pavn_taor_nv";
+									markerType="ELLIPSE";
+									type="ellipse";
+									colorName="ColorEAST";
+									alpha=0.50000018;
+									a=4539.395;
+									b=3492.1211;
+									id=627;
+									atlOffset=-82.113182;
+								};
 							};
 							id=212;
-							atlOffset=-79.596581;
+							atlOffset=25.186626;
 						};
 					};
 					id=203;
-					atlOffset=53.856804;
+					atlOffset=-99.563774;
 				};
 				class Item3
 				{
@@ -11119,7 +11133,7 @@ class Mission
 				};
 			};
 			id=200;
-			atlOffset=25.480419;
+			atlOffset=-4.6412582;
 		};
 		class Item2
 		{
