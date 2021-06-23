@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=604;
+		nextID=638;
 	};
 	class Camera
 	{
-		pos[]={14081.896,2814.4363,6902.6235};
+		pos[]={13898.878,3228.0837,6962.1602};
 		dir[]={-0.0052359938,-0.99981391,0.018587403};
 		up[]={-0.2710931,0.01926047,0.96236056};
 		aside[]={0.9625392,-1.8626451e-009,0.27114365};
@@ -9331,6 +9331,7 @@ class Mission
 									name="pavn_force_laos";
 									id=613;
 									type="ALiVE_civ_placement";
+									atlOffset=7.6293945e-006;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -9699,7 +9700,7 @@ class Mission
 								};
 							};
 							id=210;
-							atlOffset=-43.655785;
+							atlOffset=-43.655777;
 						};
 						class Item2
 						{
@@ -11640,7 +11641,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="10";
+							value="100";
 						};
 					};
 				};
