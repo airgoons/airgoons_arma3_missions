@@ -12044,7 +12044,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="100";
+							value="144";
 						};
 					};
 				};
