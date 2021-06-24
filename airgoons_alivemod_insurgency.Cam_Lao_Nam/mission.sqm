@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=706;
+		nextID=740;
 	};
 	class Camera
 	{
-		pos[]={13705.524,4357.2402,7001.6836};
+		pos[]={13722.937,4780.7964,6980.4961};
 		dir[]={-8.9777808e-005,-0.99999857,0.001743227};
 		up[]={-0.051432692,0.0016390501,0.99867511};
 		aside[]={0.99867654,-7.2759576e-012,0.051432766};
@@ -439,7 +439,7 @@ class Mission
 									type="mil_dot";
 									colorName="ColorRed";
 									id=14;
-									atlOffset=2.8654556;
+									atlOffset=3.2549095;
 								};
 								class Item3
 								{
@@ -1028,7 +1028,7 @@ class Mission
 									name="SV_Border_47";
 									type="hd_dot";
 									id=158;
-									atlOffset=6.5568848;
+									atlOffset=7.0669861;
 								};
 								class Item43
 								{
@@ -21446,7 +21446,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="100";
+									value="0";
 								};
 							};
 						};
@@ -21693,7 +21693,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="10";
+									value="0";
 								};
 							};
 						};
@@ -21899,7 +21899,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="250";
+									value="0";
 								};
 							};
 						};
@@ -22184,7 +22184,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="10";
+									value="0";
 								};
 							};
 						};
