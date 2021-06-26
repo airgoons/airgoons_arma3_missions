@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=740;
+		nextID=774;
 	};
 	class Camera
 	{
-		pos[]={13722.937,4780.7964,6980.4961};
+		pos[]={13671.502,5496.3545,7014.6563};
 		dir[]={-8.9777808e-005,-0.99999857,0.001743227};
 		up[]={-0.051432692,0.0016390501,0.99867511};
 		aside[]={0.99867654,-7.2759576e-012,0.051432766};
@@ -1680,7 +1680,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="occupation";
+													value="invasion";
 												};
 											};
 										};
@@ -8175,7 +8175,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="";
+													value="vc_blacklist_01";
 												};
 											};
 										};
@@ -9344,7 +9344,6 @@ class Mission
 									name="pavn_force_laos";
 									id=613;
 									type="ALiVE_civ_placement";
-									atlOffset=7.6293945e-006;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -9514,7 +9513,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="";
+													value="vc_blacklist_01";
 												};
 											};
 										};
@@ -9717,7 +9716,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={14694.605,10.742537,15601.763};
-										angles[]={0,0,0.35789353};
+										angles[]={0,0,0.35789722};
 									};
 									name="pavn_force_nv";
 									id=628;
@@ -11496,8 +11495,8 @@ class Mission
 									name="vc_blacklist_01";
 									markerType="RECTANGLE";
 									type="rectangle";
-									a=5965.5313;
-									b=4884.2373;
+									a=5965.5308;
+									b=4884.2368;
 									id=622;
 									atlOffset=114.82668;
 								};
