@@ -1,3 +1,6 @@
+# Dev scripts
+*.bat
+
 # Arma specific files
 *.pbo
 

@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=672;
+		nextID=774;
 	};
 	class Camera
 	{
-		pos[]={13899.128,3276.075,6961.2676};
+		pos[]={13671.502,5496.3545,7014.6563};
 		dir[]={-8.9777808e-005,-0.99999857,0.001743227};
 		up[]={-0.051432692,0.0016390501,0.99867511};
 		aside[]={0.99867654,-7.2759576e-012,0.051432766};
@@ -379,9 +379,9 @@ class Mission
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
-		year=1968;
-		month=7;
-		day=22;
+		year=1969;
+		month=4;
+		day=20;
 		hour=5;
 		minute=55;
 		startFogDecay=0.014;
@@ -439,7 +439,7 @@ class Mission
 									type="mil_dot";
 									colorName="ColorRed";
 									id=14;
-									atlOffset=2.8654556;
+									atlOffset=3.2549095;
 								};
 								class Item3
 								{
@@ -1028,7 +1028,7 @@ class Mission
 									name="SV_Border_47";
 									type="hd_dot";
 									id=158;
-									atlOffset=6.5568848;
+									atlOffset=7.0669861;
 								};
 								class Item43
 								{
@@ -1680,7 +1680,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="occupation";
+													value="invasion";
 												};
 											};
 										};
@@ -7395,7 +7395,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="0.75";
+													value="0.9";
 												};
 											};
 										};
@@ -8175,7 +8175,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="";
+													value="vc_blacklist_01";
 												};
 											};
 										};
@@ -9513,7 +9513,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="";
+													value="vc_blacklist_01";
 												};
 											};
 										};
@@ -9716,7 +9716,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={14694.605,10.742537,15601.763};
-										angles[]={-0,0,0.35789353};
+										angles[]={0,0,0.35789722};
 									};
 									name="pavn_force_nv";
 									id=628;
@@ -11495,8 +11495,8 @@ class Mission
 									name="vc_blacklist_01";
 									markerType="RECTANGLE";
 									type="rectangle";
-									a=5965.5313;
-									b=4884.2373;
+									a=5965.5308;
+									b=4884.2368;
 									id=622;
 									atlOffset=114.82668;
 								};
@@ -21445,7 +21445,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="100";
+									value="0";
 								};
 							};
 						};
@@ -21692,7 +21692,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="10";
+									value="0";
 								};
 							};
 						};
@@ -21898,7 +21898,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="250";
+									value="0";
 								};
 							};
 						};
@@ -22183,7 +22183,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="10";
+									value="0";
 								};
 							};
 						};
